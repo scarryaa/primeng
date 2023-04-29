@@ -299,7 +299,7 @@
                             "name": "Menu",
                             "routerLink": "/menu"
                         },
-                        
+
                         {
                             "name": "Menubar",
                             "routerLink": "/menubar"
