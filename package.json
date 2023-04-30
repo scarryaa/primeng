@@ -14,6 +14,7 @@
         "build:lib": "npm run build:check && npm run build:package",
         "build:package": "ng build primeng-library && gulp build-assets",
         "build:check": "npm run && npm run security:check && npm run test:headless",
+        "build:webpack": "webpack src/index.js dist/index.js",
         "security:check": "npm audit --production --audit-level high",
         "dev:ssr": "ng run primeng:serve-ssr",
         "serve:ssr": "node dist/primeng/server/main.js",
